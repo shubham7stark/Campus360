@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:layout_margin="4dp"
+    >
+   
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:layout_margin="0.6dp"
+    android:background="@drawable/style_round"
+    >
+    
+<RelativeLayout
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content" >
+
+
+    <ImageView
+        android:id="@+id/postby_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:src="@drawable/abc_ab_bottom_solid_dark_holo" />
+            
+    <TextView
+        android:id="@+id/postby_username"
+        android:layout_toRightOf="@+id/user_logo_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/post_one_liner"
+        android:layout_below="@+id/user_name"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/user_logo_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="One_Liner"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    </RelativeLayout>
+    
+
+<TextView
+        android:id="@+id/post_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="post comes here" 
+        />
+
+</LinearLayout>
+
+
+<LinearLayout
+     android:layout_width="fill_parent"
+     android:layout_height="32dp"
+     android:orientation="horizontal"
+     
+     >
+
+     <Button
+        android:text="Like"
+        android:id="@+id/like_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_weight="1" 
+        />
+
+     <Button
+        android:text="Comment"
+        android:id="@+id/comment_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_weight= "1"
+         />
+
+</LinearLayout>
+
+
+</LinearLayout>
