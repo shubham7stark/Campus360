@@ -35,3 +35,6 @@ A social blogging platform for campus communities, similar to Blogger, with a fo
 - Android SDK
 - Minimum Android API level: [To be specified]
 
+## License
+[MIT License](LICENSE).
+
